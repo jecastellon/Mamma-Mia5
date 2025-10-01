@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { pizzaCart } from "../utils/pizzas";
+import { pizzaCart } from "../../utils/pizzas";
 
 export function formatNumber(num) {
   return num.toLocaleString('es-CL');
